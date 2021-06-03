@@ -1,4 +1,4 @@
-export default foodReducer = (foods = [], action) => {
+export default bookReducer = (foods = [], action) => {
     switch (action.type) {
         case "ADD":
             return [...foods, ...action.payload]

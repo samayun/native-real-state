@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
 
-import foodReducer from './foodReducer'
+import bookReducer from './bookReducer'
 import authReducer from './authReducer'
 
-export default combineReducers({ foodReducer, authReducer })
+export default combineReducers({ bookReducer, authReducer })

@@ -2,6 +2,14 @@ import React from "react";
 import { StyleSheet, Text, View, Image, TouchableOpacity } from "react-native";
 import Swiper from "react-native-swiper/src";
 
+const books = [
+    {
+        id: 1,
+        name: "Hablu der jonno programming",
+        // image: 
+    }
+];
+
 function Homepage({ navigation }) {
     return (
         <View style={styles.container}>
@@ -9,28 +17,28 @@ function Homepage({ navigation }) {
                 <Swiper autoplay horizontal={false} height={200}>
                     <View style={styles.slide}>
                         <Image
-                            source={require("../../assets/Images/food-banner1.jpg")}
+                            source={require("../../assets/Images/featured1.jpg")}
                             resizeMode="cover"
                             style={styles.sliderImage}
                         />
                     </View>
                     <View style={styles.slide}>
                         <Image
-                            source={require("../../assets/Images/food-banner2.jpg")}
+                            source={require("../../assets/Images/featured2.jpg")}
                             resizeMode="cover"
                             style={styles.sliderImage}
                         />
                     </View>
                     <View style={styles.slide}>
                         <Image
-                            source={require("../../assets/Images/food-banner3.jpg")}
+                            source={require("../../assets/Images/featured3.jpg")}
                             resizeMode="cover"
                             style={styles.sliderImage}
                         />
                     </View>
                     <View style={styles.slide}>
                         <Image
-                            source={require("../../assets/Images/food-banner4.jpg")}
+                            source={require("../../assets/Images/featured1.jpg")}
                             resizeMode="cover"
                             style={styles.sliderImage}
                         />
@@ -39,23 +47,22 @@ function Homepage({ navigation }) {
             </View>
 
             <View style={styles.cardWrapper}>
-                <Text>Top Foods </Text>
+                <Text>Featured books</Text>
 
                 <TouchableOpacity onPress={() => navigation.navigate("Orders")}>
                     <View style={styles.card}>
                         <View style={styles.cardImageWrapper}>
                             <Image
-                                source={require("../../assets/Images/food-banner3.jpg")}
+                                source={require("../../assets/Images/book1.jpg")}
                                 resizeMode="cover"
                                 style={styles.cardImg}
                             />
                         </View>
 
                         <View style={styles.cardInfo}>
-                            <Text style={styles.cardTitle}>Amazing food</Text>
-                            <Text style={styles.cardDetails}>
-                                Amazing description for this amazing place
-                            </Text>
+                            <Text style={styles.cardTitle}>Programming er 14 gusti.</Text>
+                            <Text style={styles.cardDetails}>Author : Jhankar Mahbub.</Text>
+                            <Text style={styles.cardDetails}>Price : $30</Text>
                         </View>
                     </View>
                 </TouchableOpacity>
@@ -63,32 +70,30 @@ function Homepage({ navigation }) {
                 <View style={styles.card}>
                     <View style={styles.cardImageWrapper}>
                         <Image
-                            source={require("../../assets/Images/food-banner2.jpg")}
+                            source={require("../../assets/Images/book2.jpg")}
                             resizeMode="cover"
                             style={styles.cardImg}
                         />
                     </View>
                     <View style={styles.cardInfo}>
-                        <Text style={styles.cardTitle}>Amazing food</Text>
-                        <Text style={styles.cardDetails}>
-                            Amazing description for this amazing place
-                        </Text>
+                        <Text style={styles.cardTitle}>Hablu der jonno programming</Text>
+                        <Text style={styles.cardDetails}>Author : Jhankar Mahbub.</Text>
+                        <Text style={styles.cardDetails}>Price : $40</Text>
                     </View>
                 </View>
 
                 <View style={styles.card}>
                     <View style={styles.cardImageWrapper}>
                         <Image
-                            source={require("../../assets/Images/food-banner3.jpg")}
+                            source={require("../../assets/Images/book3.jpg")}
                             resizeMode="cover"
                             style={styles.cardImg}
                         />
                     </View>
                     <View style={styles.cardInfo}>
-                        <Text style={styles.cardTitle}>Amazing food</Text>
-                        <Text style={styles.cardDetails}>
-                            Amazing description for this amazing place
-                        </Text>
+                        <Text style={styles.cardTitle}>Bolod to boss</Text>
+                        <Text style={styles.cardDetails}>Author : Jhankar Mahbub.</Text>
+                        <Text style={styles.cardDetails}>Price : $50</Text>
                     </View>
                 </View>
             </View>
