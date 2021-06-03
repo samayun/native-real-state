@@ -3,7 +3,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, StatusBar as NvStatusBar, Platform, SafeAreaView } from 'react-native';
 import Navbar from './components/Navbar/Navbar';
-
+require('dotenv').config();
 export default function App() {
   return (
     <NavigationContainer>

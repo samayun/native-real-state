@@ -1,3 +1,41 @@
+# BookShop react-native
+
+<div 
+style="display:flex;align-items:center;justify-content: center;"
+>
+<a 
+  href="https://github.com/samayun" 
+  target="_blank" 
+  style="display:flex;align-items:center;justify-content: left;"
+  rel="noopener">
+<img
+    style="clip-path: circle();"
+    src="https://github.com/samayun.png?size=64"
+    alt="Gabriel Peal"
+/>
+</a>
+
+<a href="https://github.com/pritom-dip" target="_blank" 
+style="display:flex;align-items:center;justify-content: left;"
+rel="noopener">
+<img
+    style="clip-path: circle();"
+    src="https://github.com/pritom-dip.png?size=64"
+    alt="Gabriel Peal"
+/>
+</a>
+<a href="https://github.com/jihan212" target="_blank" 
+style="display:flex;align-items:center;justify-content: left;"
+rel="noopener">
+<img
+    style="clip-path: circle();"
+    src="https://github.com/jihan212.png?size=64"
+    alt="Gabriel Peal"
+/>
+</a>
+
+</div>
+
 # <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> How to run this project
 
 - `git clone https://github.com/samayun/native-real-state.git native-real-state`
@@ -28,6 +66,42 @@
 
 # Contributors
 
-- [ Samayun Miah Chowdhury [ @samayun ]](https://github.com/samayun)
-- [JIhan Binte Jashim [ @jihan212 ]](https://github.com/jihan212)
-- [Pritom Chowdhury Dip [ @pritom-dip ]](https://github.com/pritom-dip)
+<a 
+  href="https://github.com/samayun" 
+  target="_blank" 
+  style="display:flex;align-items:center;justify-content: left;"
+  rel="noopener">
+<img
+    style="clip-path: circle();"
+    src="https://github.com/samayun.png?size=64"
+    alt="Gabriel Peal"
+/>
+<strong 
+    style="padding:5px;"> Samayun Miah Chowdhury
+</strong> [ @samayun ]
+</a>
+
+<a href="https://github.com/pritom-dip" target="_blank" 
+style="display:flex;align-items:center;justify-content: left;"
+rel="noopener">
+<img
+    style="clip-path: circle();"
+    src="https://github.com/pritom-dip.png?size=64"
+    alt="Gabriel Peal"
+/>
+<strong 
+    style="padding:5px;"> Pritom Chowdhury Dip
+</strong> [ @pritom-dip ]
+</a>
+<a href="https://github.com/jihan212" target="_blank" 
+style="display:flex;align-items:center;justify-content: left;"
+rel="noopener">
+<img
+    style="clip-path: circle();"
+    src="https://github.com/jihan212.png?size=64"
+    alt="Gabriel Peal"
+/>
+<strong 
+    style="padding:5px;"> JIhan Binte Jashim
+</strong> [ @jihan212 ]
+</a>
