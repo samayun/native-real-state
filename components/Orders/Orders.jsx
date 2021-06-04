@@ -62,7 +62,7 @@ const Orders = () => {
 
 const styles = StyleSheet.create({
     button: {
-        backgroundColor: "green",
+        backgroundColor: "tomato",
         color: "white",
         width: 150,
         height: 30,
@@ -70,7 +70,8 @@ const styles = StyleSheet.create({
         margin: 5,
         borderRadius: 8,
         fontSize: 15,
-        textAlign:'center'
+        textAlign:'center',
+        float: 'right'
       },
 
 });
