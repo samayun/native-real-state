@@ -16,7 +16,7 @@ function Blog({ navigation }) {
         <ScrollView style={styles.container}>
 
             <View style={styles.cardWrapper}>
-                <Text>Blogs</Text>
+                <Text>Blogs from </Text>
 
                 <TouchableOpacity onPress={() => navigation.navigate("Orders")}>
                     <View style={styles.card}>
@@ -30,7 +30,7 @@ function Blog({ navigation }) {
 
                         <View style={styles.cardInfo}>
                             <Text style={styles.cardTitle}>পৃথিবীর সবচেয়ে ছোট টেক উপন্যাসঃ এক বেকবেঞ্চারের জাভাস্ক্রিপ্ট যাত্রা</Text>
-                            <Text style={styles.cardDetails}>Author : Samayun Chowdhury</Text>
+                            <Text style={styles.cardDetails}>Author: Samayun Chowdhury</Text>
                             <Text style={styles.cardButton} onPress={() => Linking.openURL('https://samayunmc.medium.com/')}> Read more </Text>
                         </View>
                     </View>
@@ -46,7 +46,7 @@ function Blog({ navigation }) {
                     </View>
                     <View style={styles.cardInfo}>
                         <Text style={styles.cardTitle}>A Brief journey to React</Text>
-                        <Text style={styles.cardDetails}>Author : Jihan</Text>
+                        <Text style={styles.cardDetails}>Author: Jihan</Text>
                         <Text style={styles.cardButton} onPress={() => Linking.openURL('https://zihanjashim2121.medium.com/a-brief-journey-to-react-c703b3bdeb42')}> Read more </Text>
                     </View>
                 </View>
@@ -61,7 +61,7 @@ function Blog({ navigation }) {
                     </View>
                     <View style={styles.cardInfo}>
                         <Text style={styles.cardTitle}>A Simple Guide to ES6 Iterators in JavaScript with Examples</Text>
-                        <Text style={styles.cardDetails}>Brandon Morelli</Text>
+                        <Text style={styles.cardDetails}>Author: Brandon Morelli</Text>
                         <Text style={styles.cardButton} onPress={() => Linking.openURL('https://codeburst.io/a-simple-guide-to-es6-iterators-in-javascript-with-examples-189d052c3d8e')}> Read more </Text>
                     </View>
                 </View>
@@ -76,7 +76,8 @@ const styles = StyleSheet.create({
     },
     sliderContainer: {
         height: 200,
-        width: "90%",
+        width: "70%",
+        height: "auto",
         marginTop: 10,
         justifyContent: "center",
         alignSelf: "center",
@@ -152,7 +153,7 @@ const styles = StyleSheet.create({
         margin: 5
     },
     cardButton: {
-        backgroundColor: "green",
+        backgroundColor: "tomato",
         color: "white",
         width: 100,
         height: 30,
@@ -160,6 +161,7 @@ const styles = StyleSheet.create({
         margin: 5,
         borderRadius: 8,
         fontSize: 15,
+        textAlign:'center'
     }
 });
 
