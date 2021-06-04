@@ -1,13 +1,13 @@
 # BookShop react-native
 
+A bookshop mobile application build on react native .
+
 <div 
-style="display:flex;align-items:center;justify-content: center;"
+style="display:flex;justify-content:center;align-items:center;"
 >
 <a 
   href="https://github.com/samayun" 
-  target="_blank" 
-  style="display:flex;align-items:center;justify-content: left;"
-  rel="noopener">
+  target="_blank">
 <img
     style="clip-path: circle();"
     src="https://github.com/samayun.png?size=64"
@@ -15,18 +15,14 @@ style="display:flex;align-items:center;justify-content: center;"
 />
 </a>
 
-<a href="https://github.com/pritom-dip" target="_blank" 
-style="display:flex;align-items:center;justify-content: left;"
-rel="noopener">
+<a href="https://github.com/pritom-dip" target="_blank">
 <img
     style="clip-path: circle();"
     src="https://github.com/pritom-dip.png?size=64"
     alt="Gabriel Peal"
 />
 </a>
-<a href="https://github.com/jihan212" target="_blank" 
-style="display:flex;align-items:center;justify-content: left;"
-rel="noopener">
+<a href="https://github.com/jihan212" target="_blank">
 <img
     style="clip-path: circle();"
     src="https://github.com/jihan212.png?size=64"
@@ -36,7 +32,26 @@ rel="noopener">
 
 </div>
 
-# <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> How to run this project
+## Features in project
+
+- You can see books in home page.
+- You can see orders in order page.
+- You can see blogs in blog page.
+- From blog page you can go to main blog by clicking “Read More” button
+
+# :clap: Screens
+
+- HomePage :
+  ![Homepage ](docs/Homepage.jpg)
+
+- OrderPage :
+  ![OrderPage](docs/OrderPage.jpg)
+
+- BlogPage
+
+  ![ BlogPage](docs/BlogPage.jpg)
+
+## <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> How to run this project
 
 - `git clone https://github.com/samayun/native-real-state.git native-real-state`
 - `cd native-real-state`
@@ -46,7 +61,7 @@ rel="noopener">
 - `npm install` (will install all node packages [INTERNET Connection Need])
 - `npm start`
 
-# <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> How to Contribute this project
+## <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> How to Contribute this project
 
 ## [How to contribute](https://www.dataschool.io/how-to-contribute-on-github)
 
@@ -64,7 +79,15 @@ rel="noopener">
 - `git fetch && git pull origin master`
 - `git push origin BRANCH_NAME` eg : `git push origin samayun`
 
-# Contributors
+Project manged by JIRA
+
+- Day1
+  ![ Day1](docs/day1.jpg)
+
+- Day2
+  ![ Day2](docs/day2.jpg)
+
+## Contributors
 
 <a 
   href="https://github.com/samayun" 
@@ -93,6 +116,7 @@ rel="noopener">
     style="padding:5px;"> Pritom Chowdhury Dip
 </strong> [ @pritom-dip ]
 </a>
+<br/>
 <a href="https://github.com/jihan212" target="_blank" 
 style="display:flex;align-items:center;justify-content: left;"
 rel="noopener">

@@ -7,7 +7,7 @@ import Products from '../components/Products/Products';
 import Orders from '../components/Orders/Orders';
 import Blog from '../components/Blog/Blog';
 import Auth from '../components/Auth/Auth';
-import Review from '../components/Review/Review';
+
 
 const Tab = createBottomTabNavigator();
 
@@ -58,7 +58,6 @@ function HomeTabs() {
                     <Tab.Screen name="Home" component={Homepage} />
                     {/* <Tab.Screen name="Products" component={Products} /> */}
                     <Tab.Screen name="Orders" component={Orders} />
-                    <Tab.Screen name="Reviews" component={Review} />
                     <Tab.Screen name="Blogs" component={Blog} />
                 </>
                 :
