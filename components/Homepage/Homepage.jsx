@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, View, Image, TouchableOpacity } from "react-native";
+import { StyleSheet, Text, ScrollView, View, Image, TouchableOpacity } from "react-native";
 import Swiper from "react-native-swiper/src";
 
 const books = [
@@ -12,7 +12,7 @@ const books = [
 
 function Homepage({ navigation }) {
     return (
-        <View style={styles.container}>
+        <ScrollView style={styles.container}>
             <View style={styles.sliderContainer}>
                 <Swiper autoplay horizontal={false} height={200}>
                     <View style={styles.slide}>
@@ -96,8 +96,23 @@ function Homepage({ navigation }) {
                         <Text style={styles.cardDetails}>Price : $50</Text>
                     </View>
                 </View>
+
+                <View style={styles.card}>
+                    <View style={styles.cardImageWrapper}>
+                        <Image
+                            source={require("../../assets/Images/book4.png")}
+                            resizeMode="cover"
+                            style={styles.cardImg}
+                        />
+                    </View>
+                    <View style={styles.cardInfo}>
+                        <Text style={styles.cardTitle}>Eloquent JavaScript: A Modern Introduction to Programming</Text>
+                        <Text style={styles.cardDetails}>Author : Marijn Haverbeke</Text>
+                        <Text style={styles.cardDetails}>Price : $50</Text>
+                    </View>
+                </View>
             </View>
-        </View>
+        </ScrollView>
     );
 }
 
@@ -106,7 +121,7 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     sliderContainer: {
-        height: 200,
+        height: 400,
         width: "90%",
         marginTop: 10,
         justifyContent: "center",
@@ -133,7 +148,7 @@ const styles = StyleSheet.create({
         alignSelf: "center",
     },
     card: {
-        height: 100,
+        height: 200,
         marginVertical: 10,
         flexDirection: "row",
         shadowColor: "#999",
@@ -165,10 +180,21 @@ const styles = StyleSheet.create({
     },
     cardTitle: {
         fontWeight: "bold",
+        fontSize: 20,
+        paddingTop: 10,
+        paddingBottom: 10,
+        paddingLeft: 5,
+        paddingRight: 5,
+        marginTop: 10,
+        marginBottom: 10,
+        marginLeft: 5,
+        marginRight: 5
     },
     cardDetails: {
-        fontSize: 12,
+        fontSize: 15,
         color: "#444",
+        padding: 5,
+        margin: 5
     },
 });
 

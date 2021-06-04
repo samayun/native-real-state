@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, View, Image, TouchableOpacity, Linking  } from "react-native";
+import { StyleSheet, Text, ScrollView, View, Image, TouchableOpacity, Linking  } from "react-native";
 import Swiper from "react-native-swiper/src";
 import { RobotoCondensed_400Regular } from '@expo-google-fonts/roboto-condensed';
 
@@ -13,7 +13,7 @@ const books = [
 
 function Blog({ navigation }) {
     return (
-        <View style={styles.container}>
+        <ScrollView style={styles.container}>
 
             <View style={styles.cardWrapper}>
                 <Text>Blogs</Text>
@@ -66,7 +66,7 @@ function Blog({ navigation }) {
                     </View>
                 </View>
             </View>
-        </View>
+        </ScrollView>
     );
 }
 
