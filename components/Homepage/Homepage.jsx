@@ -144,7 +144,7 @@ const styles = StyleSheet.create({
 
     cardWrapper: {
         marginTop: 20,
-        width: "70%",
+        width: "90%",
         height: "auto",
         alignSelf: "center",
     },

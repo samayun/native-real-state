@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
     },
     sliderContainer: {
         height: 200,
-        width: "70%",
+        width: "90%",
         height: "auto",
         marginTop: 10,
         justifyContent: "center",
